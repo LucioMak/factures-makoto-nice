@@ -1,5 +1,5 @@
 // Cache hors connexion de l'appli Factures Nice
-const VERSION = "factures-mkn-v1";
+const VERSION = "factures-mkn-v2";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "jspdf.umd.min.js", "html2canvas.min.js",
   "fonts/herr-von-muellerhoff.woff2", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });

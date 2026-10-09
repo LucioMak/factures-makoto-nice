@@ -1,6 +1,7 @@
 {
   "name": "Factures Makoto Nice",
   "short_name": "Factures Nice",
+  "id": "./",
   "description": "Factures Karaté Makoto Nice Saint-Roch",
   "lang": "fr",
   "start_url": "./",

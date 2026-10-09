@@ -18,4 +18,4 @@ Les factures et réglages restent sur le téléphone (rien n'est envoyé sur Git
 Réglages > « Exporter une sauvegarde » de temps en temps ; « Importer une sauvegarde » pour tout retrouver sur un autre téléphone.
 
 ## Mise à jour de l'appli
-Remplacer les fichiers dans le dépôt et changer `VERSION` dans `sw.js` (ex. `factures-mkn-v2`).
+Remplacer les fichiers dans le dépôt et changer `VERSION` dans `sw.js` (ex. `factures-mkn-v3`).
